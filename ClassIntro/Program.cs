@@ -21,6 +21,11 @@ namespace ClassIntro
             kurs3.Egitmen = "Eğitmen_3";
             kurs3.IzlenmeOranı = 75;
 
+            Kurs kurs4 = new Kurs();
+            kurs3.KursAdi = "Kurs_4";
+            kurs3.Egitmen = "Eğitmen_4";
+            kurs3.IzlenmeOranı = 13;
+
             Kurs[] kurslar = new Kurs[] { kurs1, kurs2, kurs3 };
 
             foreach (Kurs kurs in kurslar)
